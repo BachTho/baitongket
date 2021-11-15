@@ -1,0 +1,34 @@
+.icon_dichvu{
+
+	border: 1px solid #D1D5DB;
+	font-size: 40px;
+	padding: 15px;
+	width: 40%;
+	margin: auto;
+	background: white;
+	border-radius: 50%;
+	height: auto;
+	margin-bottom: 10px
+}
+.icon_dichvu:hover{
+	box-shadow: 0 0 15px 10px #b6bbc0;
+}
+.title_dichvu{
+	margin: 0;
+	font-size: 30px;
+	line-height: 1.25;
+	    color: inherit;
+}
+.title_dichvu:hover{
+	font-size: 40px;
+}
+.dichvu_title{
+	color: #4c58a4;
+}
+.dichvu_title1{
+	margin-top: 3%;
+	margin-bottom: 2%;
+	display: inline-block;
+	border-bottom: 1px solid #c2d6db;
+	padding-bottom: 11px;
+}

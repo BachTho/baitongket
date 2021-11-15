@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blog detail</title>
+	<!-- link icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<!-- slick -->
+	<link rel="stylesheet" href="css/slick.css">
+	<!-- jquery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+
+	<link rel="stylesheet" href="js/jquery-ui.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+	<!-- OwlCarousel2 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+	<link rel="stylesheet" href="css/category.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/dichvu.css">
+	<link rel="stylesheet" href="css/place.css">
+	<link rel="stylesheet" href="css/review.css">
+	<link rel="stylesheet" href="css/newandstories.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/blacktotop.css">
+	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/agent.css">
+	<link rel="stylesheet" href="css/agent_detail.css">
+	<link rel="stylesheet" href="css/blog.css">
+	<link rel="stylesheet" href="css/blog_detail.css">
+</head>
+<body>
+	<div class="header bg-light">
+			<div class="header-top ">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-4 mt-2">
+							<p >Mon - Sat: 08.00 AM - 18.00 PM</p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-8 text-right mt-2">
+							<ul class="header-top-ul">
+								<li >
+									<ul class="ul-liststyle  header-top-icon">
+										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+										<li><a href="#"><i class="fab fa-google"></i></a></li>
+									</ul>
+								</li>
+								<li>
+									<div class="dropdown">
+										<button class="buttonheader-top dropdown-toggle" type="button" data-toggle="dropdown">VNĐ<span class="caret"></span></button>
+										<ul class="ul-liststyle dropdown-menu">
+											<li><a href="#">EURO ($)</a></li>
+											<li><a href="#">USD ($)</a></li>
+										</ul>
+									</div>
+
+								</li>
+								<li>
+									<div class="dropdown ">
+										<button class="buttonheader-top buttonheader-top1 dropdown-toggle " type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English<span class="caret"></span></button>
+										<ul class="ul-liststyle dropdown-menu" >
+											<li><a href="#">English</a></li>
+											<li><a href="#">Viet Nam</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="header-center">
+					<div class="row">
+						<div class="col-lg-5 col-5">
+							<!-- logo -->
+							<div class="logo"><a href="home.html"><img  src="./Image/logo.png" alt="logo"></a></div>
+						</div>
+						<div class="col-lg-7 text-right col-7 mt-4 d-flex">
+							<!-- header-contact -->
+							<ul class="ul-liststyle text-left header-contact">
+								<li class="mr-4" >
+									<a href="tel:0336418838" class="icon text-info"><i class="fas fa-phone-volume"></i></a>
+									<div>
+										<p><a href="tel:+12463450695">0336418838</a>
+										</br><a href="mailto:vobachtho@gmail.com">vobachtho@gmail.com</a></p>
+									</div>
+								</li>
+								<li class="mr-4">
+									<a href="map:" class="icon text-info "><i class="fas fa-map-marker-alt"></i></a>
+									<div>
+										<p class="font-weight-bolder">Phường Tân chánh hiệp <br>Quận 12, TP.hcm</p>
+									</div>
+								</li>
+							</ul>
+							<!-- headerSearchForm -->
+							<div class="wrapper col text-right ">
+								<div class="searchbox">
+									<input type="text" class="input" placeholder="Search....">
+									<div class="searchbtn ">
+										<i class="fas fa-search"></i>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- nav -->
+			<nav class="navbar navbar-expand-lg navbar-light background-menu text-white sticky-top ">
+					<button class="bg-white navbar-toggler  mb-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class=" navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse background_menu pl-4" id="navbarSupportedContent">
+						<ul class="navbar-nav  mr-auto w-100 ">
+							<li class="text-white nav-item dropdown active">
+								<a class="text-white nav-link " href="home.html" >
+									HOME
+								</a>
+							</li>
+							<li class="text-white nav-item dropdown ">
+								<a class="text-white nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									SẢN PHẨM
+								</a>
+								<div class=" dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item text-white" href="housee.html">SẢN PHẨM</a>
+									<a class="dropdown-item text-white" href="house_detail.html">CHI TIẾT SẢN PHẨM</a>
+								</div>
+							</li>
+							<li class="text-white nav-item dropdown ">
+								<a class="text-white nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									PAGES
+								</a>
+								<div class=" dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item text-white" href="agent.html">ĐỐI TÁC</a>
+									<a class="dropdown-item text-white" href="agent_detail.html">CHI TIẾT ĐỐI TÁC</a>
+									
+								</div>
+							</li>
+							<li class="nav-item dropdown ">
+								<a class="text-white nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									BLOG
+								</a>
+								<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item text-white" href="blog.html">Blog</a>
+									<a class="dropdown-item text-white" href="blog_detail.html">Blog DETAIL</a>
+								</div>
+							</li>
+							<li class="text-white nav-item">
+								<a class="text-white nav-link" href="about.html">ABOUT</a>
+							</li> 
+						</ul>
+						<div class="col">
+							<ul class="menu_contact ul-liststyle text-left ">
+								<li class="mr-4" >
+									<a href="tel:0336418838" class="text-info icon1 "><i class="fas fa-user"></i></a>
+									<div>
+										<p><a class="text-white" href="#">Login</a></p>
+									</div>
+								</li>
+								<li class="mr-4" >
+									<a href="#" class="tetx-white icon1 text-info"><i class="fas fa-pencil-alt"></i></a>
+									<div>
+										<p><a class="text-white"  href="#">Register</a></p>
+									</div>
+								</li>
+								<li class="mr-4" >
+									<a href="#" class="text-white icon1 text-info"><i class="fas fa-plus"></i></a>
+									<div>
+										<p><a class="text-white" href="#">Pawn</a></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	<!-- main -->
+	<div class="main back1">
+		<div class="slick">
+			<div class="container-fluid ">
+				<div class="row ">
+					<div class="col-lg-12 m-0">
+						<div class="background_maim">
+							<form action="#" class="findFormBlock findFormBlock2 bgLightDark hasShadowTop offsetHeaderTop">
+								<div class="container">
+									<div class="row align-center d-flex">
+										<div class="col-12 col-sm-5 col-md-6 col-lg-5">
+											<div class="form-group">
+												<input type="text" class="form-control elemenBlock noBdr sizeMedium" placeholder="Enter address e.g. street, store">
+											</div>
+										</div>
+										<div class="col-12 col-md-3 col-lg-2">
+											<div class="form-group">
+												<i class="fi flaticon-target icnInput"></i>
+												<input type="text" class="form-control elemenBlock noBdr sizeMedium" placeholder="Enter district">
+											</div>
+										</div>
+										<div class="col-12 col-sm-3 col-md-3 col-lg-2">
+											<div class="form-group">
+												<select id="list" class=" form-control a ">
+													<option class="col-lg-3" value="1">ALL Areas</option>
+													<option class="col-lg-3" value="2">TP.HCM</option>
+													<option class="col-lg-3" value="3">HÀ NỘI</option>
+													<option class="col-lg-3" value="4">ĐỒNG NAI</option>
+													<option class="col-lg-3" value="5">BÌNH DƯƠNG</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-12 col-md-12 col-lg-3 ">
+											<div class="display_search">
+												<span class=" mb-3">
+													<span id="button2" class="title font-weight-bold">
+														<i class="color-orther fa fa-plus" aria-hidden="true"></i>
+													</span>
+													<span class="font-weight-bold">Trademark</span>
+												</span>
+												<button type="button" class="btn btnDark btnDark1 text-right ml-2">SEARCH</button>
+											</div>
+										</div>
+									</div>
+									<div class="them">
+										<div class="row my-4">
+											<div class="input-group my-2 col-md-3 col-lg-3 ">
+												<span class="input-group-addon mr-2">
+													<input type="checkbox" aria-label="Checkbox for following text input">
+												</span>
+												<span>Học tập</span>
+											</div>
+											<div class="input-group my-2 col-md-3 col-lg-3">
+												<span class="input-group-addon mr-2">
+													<input type="checkbox" aria-label="Checkbox for following text input">
+												</span>
+												<span>Đồ họa</span>
+											</div>
+											<div class="input-group my-2 col-md-3 col-lg-3">
+												<span class="input-group-addon mr-2">
+													<input type="checkbox" aria-label="Checkbox for following text input">
+												</span>
+												<span>Gaming</span>
+											</div>
+											<div class="input-group my-2 col-md-3 col-lg-3">
+												<span class="input-group-addon mr-2">
+													<input type="checkbox" aria-label="Checkbox for following text input">
+												</span>
+												<span>Văn phòng</span>
+											</div>
+											<div class="input-group my-2 col-md-3 col-lg-3">
+												<span class="input-group-addon mr-2">
+													<input type="checkbox" aria-label="Checkbox for following text input">
+												</span>
+												<span>Cao cấp</span>
+											</div>
+											<div class="input-group my-2 col-md-3 col-lg-3">
+												<span class="input-group-addon mr-2">
+													<input type="checkbox" aria-label="Checkbox for following text input">
+												</span>
+												<span>Kỹ thuật</span>
+											</div>
+											<div class="input-group my-2 col-md-3 col-lg-3">
+												<span class="input-group-addon mr-2">
+													<input type="checkbox" aria-label="Checkbox for following text input">
+												</span>
+												<span>Sang trọng</span>
+											</div>
+											<div class="input-group my-2 col-md-3 col-lg-3">
+												<span class="input-group-addon mr-2">
+													<input type="checkbox" aria-label="Checkbox for following text input">
+												</span>
+												<span>Cảm ứng</span>
+											</div>
+											<div class="input-group my-2 col-md-3 col-lg-3">
+												<span class="input-group-addon mr-2">
+													<input type="checkbox" aria-label="Checkbox for following text input">
+												</span>
+												<span>Pin cao</span>
+											</div>
+											<div class="input-group my-2 col-md-3 col-lg-3">
+												<span class="input-group-addon mr-2">
+													<input type="checkbox" aria-label="Checkbox for following text input">
+												</span>
+												<span>Mỏng nhẹ</span>
+											</div>
+											<div class="input-group my-2 col-md-3 col-lg-3">
+												<span class="input-group-addon mr-2">
+													<input type="checkbox" aria-label="Checkbox for following text input">
+												</span>
+												<span>Laptop 2 in 1</span>
+											</div>
+											<div class="input-group my-2 col-md-3 col-lg-3">
+												<span class="input-group-addon mr-2">
+													<input type="checkbox" aria-label="Checkbox for following text input">
+												</span>
+												<span>Web cam</span>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<button type="button" class="btn btnDark2 btnDark text-right ml-2 my-3">SEARCH</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- blog -->
+	<div class="blog">
+		<div class="container">
+			<div class="btnsWrap ">
+				<div class="">
+					<a href="home.html" class=" btndot" tabindex="0">Home</a>
+					<a href="blog.html" class=" btndot" tabindex="0">Blog</a>
+				</div>
+				<div class="btndot1 mb-2">
+					Blog Detail
+				</div>
+			</div>
+			<div class="row">
+				<div class="css_responsive1">
+					<div class="col-lg-8 ">
+						<div class="bg-light border rounded p-3">
+							<p >
+								<img height="300px" class="rounded" src="./Image/new3.jpg">
+							</p>
+							<h2 class="font-weight-bolder">ASUS ROG Zephyrus G14</h2>
+							<p>
+								<a href="agent_detail.html" class="btn btn-info mr-4">FPT Shop</a>
+								<span class="mr-4">February 20, 2020</span>
+								<a href="blog_detail.html" class="text-decoration-none">12 comment</a>
+							</p>
+							<p>Laptop asus rog zephyrus g14 được trang bị tới hiệu năng mạnh mẽ để giúp người dùng chinh phục mọi tác vụ, kết hợp với AMD tạo ra một bộ xử lý CPU phiên bản đặc biệt là AMD Ryzen™ R7-5800HS Processor (ngoài ra còn có tủy chọn Ryzen™ R9-5900HS tùy vào mức giá) với mức tiêu thụ điện năng và nhiệt tạo ra thấp.</p>
+							<div class="bg-info">
+								<div class="p-2">
+									<p class="content_blog ">ASUS đã chính thức tung ra phiên bản ROG Zephyrus G14 đặc biệt, hợp tác cùng với một trong những DJ nổi tiếng nhất thế giới hiện nay – Alan Walker</p>
+								</div>
+							</div>
+							<h4 class="font-weight-bolder my-4">Nổi Bật</h4>
+							<p>Chiếc máy này hiện được hãng trang bị một chiếc màn hình đem lại chất lượng hiển thị cực kỳ đỉnh cao: Kích thước 14 inch, độ phân giải lên tới 2560*1440, tần số quét lên tới 120Hz và dải màu DCI-P3 lên tới 100%.</p>
+						</div>
+						<div class="bg-light border rounded mt-4 p-3">
+							<div class="row">
+								<div class="col m-2" >
+									<h5 class="font-weight-bolder">Tags</h5>
+								</div>
+								<div class="col photocss1 m-2" >
+									<span class="text-white">Đồ họa</span>
+								</div>
+								<div class="col photocss1 m-2" >
+									<span class="text-white">Gaming</span>
+								</div>
+								<div class="col photocss1 m-2" >
+									<span class="text-white">Mỏng nhẹ</span>
+								</div>
+								<div class="col photocss1 m-2" >
+									<span class="text-white">Học tập</span>
+								</div>
+							</div>
+						</div>
+						<div class="bg-light border rounded mt-4 p-3">
+							<div class="row">
+								<div class="col-6  text-left">
+									<div class="row">
+										<div class="col-1 mt-3"><i class="fas fa-arrow-left"></i></div>
+										<div class="an_pagelist col-10">
+											<h4>Prev Post</h4>
+											<div> 10 Things Your Competitors </div>
+										</div>
+									</div>
+								</div>
+								<div class="col-6 text-right ">
+									<div class="row">
+										<div class="an_pagelist col-lg-10 col-md-10 col-10">
+											<h4>Next Post</h4>
+											<div> About Real Estate </div>
+										</div>
+										<div class="col-12 col-lg-1 col-md-1 mt-3 mr-2"><i class="fas fa-arrow-right"></i></div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row mt-4">
+							<div class="col-lg-6 col-md-6 col-12 mb-1 rounded">
+								<a href="blog_detail.html">
+									<div class="border p-2 bg-light blog_right">
+										<p class=" css_blog_img">
+											<img height="200px" src="./Image/new4.jfif">
+										</p>
+										<h4>ASUS ROG Zephyrus G15</h4>
+										<p>
+											<a href="agent_detail.html" class="btn  btn-info">FPT Shop</a>
+											<span datetime="2011-01-12">February 9, 2020</span>
+											<a href="blog_detail.html" class="text-decoration-none">12 comment</a>
+										</p>
+										<p>là một sản phẩm tuyệt vời được xây dựng chắc chắn và đủ mạnh để thực hiện các trò chơi hiện đại nhẹ nhàng</p>
+										<a href="blog_detail.html">
+											<p class="border_read">
+												<div class="row">
+													<div class="col-lg-9 col-md-9 col-9">Read Article</div>
+													<div class="col-lg-1 col-md-1 col-1">
+														<i class="fas fa-arrow-right"></i>
+													</div>
+												</div>
+											</p>
+										</a>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-6 col-md-6 col-12 mb-1 rounded">
+								<a href="blog_detail.html">
+									<div class="border p-2 bg-light blog_right">
+										<p class="css_blog_img">
+											<img height="200px" src="./Image/new1.jpg" >
+										</p>
+										<h4>ASUS ExpertBook B5</h4>
+										<p>
+											<a  href="agent_detail.html" class="btn  btn-info">CellPhoneS</a>
+											<span datetime="2011-01-12">October 9, 2020</span>
+											<a href="blog_detail.html" class="text-decoration-none">3 comment</a>
+										</p>
+										<p>là một sản phẩm tuyệt vời được xây dựng chắc chắn và đủ mạnh để thực hiện các trò chơi hiện đại nhẹ nhàng</p>
+										<a class="text-decoration-none" href="blog_detail.html">
+											<p class=" border_read">
+												<div class="row">
+													<div class="col-lg-9 col-md-9 col-9">Read Article</div>
+													<div class="col-lg-1 col-md-1 col-1">
+														<i class="fas fa-arrow-right"></i>
+													</div>
+												</div>
+											</p>
+										</a>
+									</div>
+								</a>
+							</div>
+						</div>
+						<!-- commnet -->
+						<div class="bg-light border rounded mt-4 p-3">
+							<!-- rate tieu de -->
+							<div class="p-4 css_review">
+								<div class="row">
+									<div class="col-12 col-md-6 col-lg-6 font-weight-bolder text-left">
+										Xếp hạng và đánh giá
+									</div>
+									<div class="col-12 col-md-6 col-lg-6  btn_tạoreview">
+										<button type="submit" class="btn btnDark">Viết bài đánh giá mới</button>
+									</div>
+								</div>
+							</div>
+							<!-- cho sao -->
+							<div class="p-4 mt-3 css_review">
+								<div class="row">
+									<div class="col-12 col-lg-8 col-md-8 p-4">
+										<div class="row">
+											<div class="col-lg-5 col-12 col-md-6">
+												<span>
+													<i class="danhgia fas fa-star checked"></i>
+													<i class="danhgia fas fa-star checked"></i>
+													<i class="danhgia fas fa-star checked"></i>
+													<i class="danhgia fas fa-star checked"></i>
+													<i class="danhgia fas fa-star checked"></i>
+												</span>
+												<span class="ml-4">3</span>
+											</div>
+											<div class="col-lg-5 col-12 col-md-6">
+												<div class="rate">
+													<div class="rate1 bg-info"></div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-5 col-12 col-md-6">
+												<span>
+													<i class="danhgia fas fa-star checked"></i>
+													<i class="danhgia fas fa-star checked"></i>
+													<i class="danhgia fas fa-star checked"></i>
+													<i class="danhgia fas fa-star checked"></i>
+													<i class="danhgia1 fas fa-star checked"></i>
+												</span>
+												<span class="ml-4">4</span>
+											</div>
+											<div class="col-lg-5 col-12 col-md-6">
+												<div class="rate">
+													<div class="rate2 bg-info"></div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-5 col-md-6">
+												<span>
+													<i class="danhgia fas fa-star checked"></i>
+													<i class="danhgia fas fa-star checked"></i>
+													<i class="danhgia fas fa-star checked"></i>
+													<i class="danhgia1 fas fa-star checked"></i>
+													<i class="danhgia1 fas fa-star checked"></i>
+												</span>
+												<span class="ml-4">3</span>
+											</div>
+											<div class="col-lg-5 col-md-6">
+												<div class="rate">
+													<div class="rate3 bg-info"></div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-5 col-md-6">
+												<span>
+													<i class="danhgia fas fa-star checked"></i>
+													<i class="danhgia fas fa-star checked"></i>
+													<i class="danhgia1 fas fa-star checked"></i>
+													<i class="danhgia1 fas fa-star checked"></i>
+													<i class="danhgia1 fas fa-star checked"></i>
+												</span>
+												<span class="ml-4">3</span>
+											</div>
+											<div class="col-lg-5 col-md-6">
+												<div class="rate">
+													<div class="rate4 bg-info"></div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-5 col-md-6">
+												<span>
+													<i class="danhgia fas fa-star checked"></i>
+													<i class="danhgia1 fas fa-star checked"></i>
+													<i class="danhgia1 fas fa-star checked"></i>
+													<i class="danhgia1 fas fa-star checked"></i>
+													<i class="danhgia1 fas fa-star checked"></i>
+												</span>
+												<span class="ml-4">3</span>
+											</div>
+											<div class="col-lg-5 col-md-6">
+												<div class="rate">
+													<div class="rate5 bg-info"></div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-5 col-md-6">
+												<span>
+													<i class="danhgia1 fas fa-star checked"></i>
+													<i class="danhgia1 fas fa-star checked"></i>
+													<i class="danhgia1 fas fa-star checked"></i>
+													<i class="danhgia1 fas fa-star checked"></i>
+													<i class="danhgia1 fas fa-star checked"></i>
+												</span>
+												<span class="ml-4">0</span>
+											</div>
+											<div class="col-lg-5 col-md-6">
+												<div class="rate">
+													<div class="rate6 bg-info"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-lg-4 col-12">
+										<div class="text-center border background_write mt-4 p-4">
+											<div>
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+											</div>
+											<h4 class="font-weight-bolder">4.3</h4>
+											<p>Overall rating</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<h5 class="mt-2">3 Đánh giá</h5>
+							<!-- các bài danh gia -->
+							<div class="p-4 mt-3 css_review1">
+								<div class="row">
+									<div class="col-5 col-lg-3 col-md-3">
+										<img src="./Image/review4.jpg" alt="">
+									</div>
+									<div class="col-7 col-lg-9 col-md-9 p-2">
+										<div class="row">
+											<div class="col-12 col-lg-7 col-md-6">
+												<h4 class="font-weight-bolder">Phạm Quốc Cường</h4>
+											</div>
+											<div class="col-9 col-lg-5 col-md-6 p-1">
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+												<span> July 25, 2019</span>
+											</div>
+										</div>
+										<p>Mình đã sử dụng 1 vài sản phẩm và thấy khá hài lòng từ chơi game đến học tập, thiết kế đẹp, cấu hình ổn và chế độ bảo hành rất tốt.</p>
+									</div>
+								</div>
+							</div>
+							<div class="p-4 mt-3 css_review1">
+								<div class="row">
+									<div class="col-5 col-lg-3 col-md-3">
+										<img src="./Image/review5.jpg" alt="">
+									</div>
+									<div class="col-7 col-lg-9 col-md-9 p-2">
+										<div class="row">
+											<div class="col-12 col-lg-7 col-md-6">
+												<h4 class="font-weight-bolder">Nguyễn Công Hậu</h4>
+											</div>
+											<div class="col-9 col-lg-5 col-md-6 p-1">
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+												<span> July 2, 2019</span>
+											</div>
+										</div>
+										<p>Cảm nhận đầu tiên của em về Asus Rog là từ Đẹp.Mọi sản phẩm của asus đều có thiết kế không chê vào đâu được. Dòng G531 là sản phẩm mà em đang dùng, trừ màn hình hở sáng thì mọi thứ em nó làm đều ngon lành. Em mong Asus sẽ cố gắng phát triển hoàn thiện sản phẩm hơn nữa.</p>
+									</div>
+								</div>
+							</div>
+							<div class="p-4 mt-3 css_review1">
+								<div class="row">
+									<div class="col-5 col-lg-3 col-md-3">
+										<img src="./Image/review6.jpg" alt="">
+									</div>
+									<div class="col-7 col-lg-9 col-md-9 p-2">
+										<div class="row">
+											<div class="col-12 col-lg-7 col-md-6">
+												<h4 class="font-weight-bolder">Lâm Phùng</h4>
+											</div>
+											<div class="col-9 col-lg-5 col-md-6 p-1">
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+												<i class="danhgia fas fa-star checked"></i>
+												<span> July 10, 2019</span>
+											</div>
+										</div>
+										<p>Em Rất thích đồ asus ROG nhưng Chưa có điều kiện để mua gear nên em chỉ có chiếc laptop. Cảm nhận của em về laptop của Asus: thiết kế rất đẹp hiệu năng ổn định,cấu hình mạnh,phần mềm hỗ trợ tốt.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- thông tin comment -->
+						<div class="bg-light border rounded my-4 p-3">
+							<div class="p-4 css_review1">
+								<h5 class="font-weight-bolder">Your Reviews</h5>
+							</div>
+							<form method="get" accept-charset="utf-8" id="formDemo" class="mt-3">
+								<div class="row">
+									<div class="col-12 col-lg-6 col-md-12">
+										<div class="form-group">
+											<input name="ho" type="text" placeholder="Your Name" class="form-control" required>
+										</div>
+									</div>
+									<div class="col-12 col-lg-6 col-md-12">
+										<div class="form-group">
+											<input name="email1" type="text" placeholder="Email" class="form-control" required>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12 col-lg-6 col-md-12">
+										<div class="form-group">
+											<input name="number" type="text" placeholder="Phone Number" class="form-control" required>
+										</div>
+									</div>
+									<div class="col-12 col-lg-6 col-md-12">
+										<div class="form-group">
+											<input type="text" placeholder="Website" class="form-control">
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<textarea name="message" class=" form-control" placeholder="Message" style="height: 150px" required></textarea>
+								</div>
+								<div class="form-group">
+									<span>Rate: </span>
+									<span >
+										<i class="danhgia fas fa-star checked"></i>
+										<i class="danhgia fas fa-star checked"></i>
+										<i class="danhgia fas fa-star checked"></i>
+										<i class="danhgia fas fa-star checked"></i>
+										<i class="danhgia fas fa-star checked"></i>
+									</span>
+								</div>
+								<button type="submit" class="btn btnDark fontNeuron buttonXL">Submit</button>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="bg-light border rounded">
+							<!-- widgetCalcForm -->
+							<form action="#" class="p-4">
+								<div class="search_form">
+									<input type="text" class="search_form1" placeholder="Search">
+									<button type="submit" class="search_form2"><i class="fas fa-search"></i></button>
+								</div>
+							</form>
+						</div>
+						<div class="bg-light border rounded mt-4 p-4">
+							<div class="widget widgetPadding widgetCalc bgWhite">
+								<h3 class="font-weight-bolder">Categories</h3>
+								<ul class="list-unstyled">
+									<li class="my-2"><a href="#">2016 Trend</a></li>
+									<li class="my-2"><a href="#">Creative Design</a></li>
+									<li class="my-2"><a href="#">Home Decor</a></li>
+									<li class="my-2"><a href="#">Interior Design</a></li>
+									<li class="my-2"><a href="#">Modern Style</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="bg-light border rounded mt-4 p-4">
+							<h4>Latop Đẳng cấp</h4>
+							<div class="projects">
+								<div class="container">
+									<div class="row">
+										<div class="col-lg-12 col-md-12 col-12 border item gaming my-4">
+											<div class="row">
+												<div class="col-lg-5 col-md-5 col-5 mt-3 ">
+													<div class="card carddd ">
+														<div class="card-head">
+															<div class="dot_hot">
+																<img class="dot_hot1" src="./Image/sale.jpg" >
+															</div>
+															<div class="slider_content1">
+																<div class="slider_item1">
+																	<p style="position: relative;">
+																		<img src="./Image/category.jpg" class="img-fluid  ">
+																	</p>
+																</div>
+																<div class="slider_item1">
+																	<p style="position: relative;">
+																		<img src="./Image/category1.jpg" class="img-fluid ">
+																	</p>
+																</div>
+																<div class="slider_item1">
+																	<p style="position: relative;">
+																		<img src="./Image/category2.jpg" class="img-fluid ">
+																	</p>
+																</div>
+															</div>
+															<div class="card-hover">
+																<div class="arrow_prev1">
+																	<span class="css_dot"><i class="fas fa-chevron-left"></i></span>
+																</div>
+																<div class="arrow_next1	">
+																	<span class="css_dot" ><i class="fas fa-chevron-right"></i></span>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-7 col-md-7 col-7 mt-3">
+													<h5>Laptop ASUS Gaming ROG Zephyrus G14 GA401QH-HZ035T </h5>
+													<div class="row">
+														<div class="item-product-title ml-3">
+															<span class="text-danger font-weight-bolder">27.990.000&nbsp;₫</span>
+															<span class=" mr-4 old-price">28.990.000&nbsp;₫</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-12 col-md-12 col-12 border item vivobook my-4">
+											<div class="row">
+												<div class="col-lg-5 col-md-5 col-5 mt-3">
+													<div class="card carddd">
+														<div class="card-head">
+															<div class="dot_hot">
+																<img class="dot_hot1" src="./Image/sale.jpg" >
+															</div>
+															<div class="slider_content3">
+																<div class="slider_item1">
+																	<p style="position: relative;">
+																		<img height="120px" src="./Image/category12.jpg" class="img-fluid ">
+																	</p>
+																</div>
+																<div class="slider_item1">
+																	<p style="position: relative;">
+																		<img height="120px" src="./Image/category13.jpg" class="img-fluid">
+																	</p>
+																</div>
+																<div class="slider_item1">
+																	<p style="position: relative;">
+																		<img height="120px" src="./Image/category14.jpg" class="img-fluid ">
+																	</p>
+																</div>
+															</div>
+															<div class="card-hover">
+																<div class="arrow_prev3">
+																	<span class="css_dot"><i class="fas fa-chevron-left"></i></span>
+																</div>
+																<div class="arrow_next3">
+																	<span class="css_dot" ><i class="fas fa-chevron-right"></i></span>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-7 col-md-7 col-7 mt-3">
+													<h5>Laptop ASUS Vivobook A515EA-L11171T</h5>
+													<div class="row">
+														<div class="item-product-title ml-3">
+															<span class="text-danger font-weight-bolder">19.490.000&nbsp;₫</span>
+															<span class=" mr-4 old-price">19.990.000&nbsp;₫</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-12 col-md-12 col-12 border item gaming my-4">
+											<div class="row">
+												<div class="col-lg-5 col-md-5 col-5 mt-3 ">
+													<div class="card carddd ">
+														<div class="card-head">
+															<div class="dot_hot">
+																<img class="dot_hot1" src="./Image/sale.jpg" >
+															</div>
+															<div class="slider_content2">
+																<div class="slider_item1">
+																	<p style="position: relative;">
+																		<img src="./Image/category3.jpg" class="img-fluid  ">
+																	</p>
+																</div>
+																<div class="slider_item1">
+																	<p style="position: relative;">
+																		<img src="./Image/category4.jpg" class="img-fluid ">
+																	</p>
+																</div>
+																<div class="slider_item1">
+																	<p style="position: relative;">
+																		<img src="./Image/category5.jpg" class="img-fluid ">
+																	</p>
+																</div>
+															</div>
+															<div class="card-hover">
+																<div class="arrow_prev2">
+																	<span class="css_dot"><i class="fas fa-chevron-left"></i></span>
+																</div>
+																<div class="arrow_next2">
+																	<span class="css_dot" ><i class="fas fa-chevron-right"></i></span>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-7 col-md-7 col-7 mt-3">
+													<h5>Laptop Asus Rog Zephyrus Duo 15 S45E GX551QR - HB120T </h5>
+													<div class="row">
+														<div class="item-product-title ml-3">
+															<span class="text-danger font-weight-bolder">80.990.000&nbsp;₫</span>
+															<span class=" mr-4 old-price">84.990.000&nbsp;₫</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="bg-light border rounded mt-4 p-4">
+							<h4>Our Photos</h4>
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-4">
+									<div class="photocss my-2" >
+										<a href="blog_detail.html"><img src="./Image/category.jpg" alt=""></a>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-4">
+									<div class="photocss my-2" >
+										<a  href="blog_detail.html"><img src="./Image/category3.jpg" alt=""></a>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-4">
+									<div class="photocss my-2" >
+										<a class="border" href="blog_detail.html"><img src="./Image/category6.jpg" alt=""></a>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-4">
+									<div class="photocss my-2" >
+										<a href="blog_detail.html"><img src="./Image/category9.jpg" alt=""></a>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-4">
+									<div class="photocss my-2" >
+										<a href="blog_detail.html"><img src="./Image/category12.jpg" alt=""></a>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-4">
+									<div class="photocss my-2" >
+										<a href="blog_detail.html"><img src="./Image/category15.jpg" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bg-light border rounded mt-4 p-4">
+							<h4>Tags</h4>
+							<div class="row text-center">
+								<div class="col-lg-4 col-md-4 col-4">
+									<div class="photocss1 my-2" >
+										<a class="text-decoration-none" href="house_list.html"><span class="text-white">Đồ họa</span></a>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-6">
+									<div class="photocss1 my-2" >
+										<a class="text-decoration-none" href="house_list.html"><span class="text-white">Văn phòng</span></a>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-4">
+									<div class="photocss1 my-2" >
+										<a class="text-decoration-none" href="house_list.html"><span class="text-white">Gaming</span></a>
+									</div>
+								</div>
+
+								<div class="col-lg-4 col-md-6 col-6">
+									<div class="photocss1 my-2" >
+										<a class="text-decoration-none" href="house_list.html"><span class="text-white">Mỏng nhẹ</span></a>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-4">
+									<div class="photocss1 my-2" >
+										<a class="text-decoration-none" href="house_list.html"><span class="text-white">Kỹ thuật</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- guiemail -->
+	<div class="emmail"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+		<form action="#" >
+			<div class="container mt-4">
+				<div class="row">
+					<div class="col-12 col-lg-2 col-md-2 text-center">
+						<span style="font-size: 50px;">
+							<i class="fas fa-envelope-open-text"></i>
+						</span>
+					</div>
+					<div class="col-12 col-lg-6 col-md-6">
+						<h3 class="dichvu_title font-weight-bolder">Đăng ký nhận ngay ưu đãi.</h3>
+						<p>Có cơ hội nhận hàng trăm phiếu giảm giá và cập nhật sự kiện nhanh chóng.</p>
+					</div>
+					<div class="col-12 col-lg-4 col-md-4 mb-5">
+						<div class="uudai">
+							<input type="email" id="email" class="form-control elemenBlock" placeholder="Your email">
+							<button type="button" ><i class="fas fa-plane"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+
+	
+	<!-- pageFooterBlock -->
+	<div class="pageFooterBlock">
+		<div class="footer_top">
+			<div class="container">
+				<div class="row mt-4">
+					<div class="col-12 col-lg-4 mt-4 ">
+						<h2 class=" text-uppercase">Shark Tho</h2>
+						<p class="font-weight-bolder">Công ty TNHH Shark Tho mang lại cho bạn những sự lựa chọn tuyệt vời.</p>
+						<div class="row">
+							<div class="col-lg-1 col-md-1 col-1">
+								<i style="color: #4e7d96; font-size: 22px;" class="fas fa-paper-plane"></i>
+							</div>
+							<div class="col-lg-11 col-md-11 col-11">
+								<p>Phường Tân chánh hiệp
+								Quận 12, TP.hcm</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-1 col-md-1 col-1">
+								<i style="color: #4e7d96; font-size: 22px;" class="fas fa-phone-volume"></i>
+							</div>
+							<div class="col-lg-11 col-md-11 col-11">
+								<p>0336418838</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-1 col-md-1 col-1">
+								<i style="color: #4e7d96; font-size: 22px;" class="fas fa-envelope"></i>
+							</div>
+							<div class="col-lg-11 col-md-11 col-11">
+								<p>vobachtho@gmail.com</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-4 mt-4">
+						<h2 class=" text-uppercase">Useful Links</h2>
+						<div class="row">
+							<div class="col-lg-6 col-6 col-md-6">
+								<ul class="list-unstyled ">
+									<li ><a class="text-white text-decoration-none" href="#">Home</a></li>
+									<li><a class="text-white text-decoration-none" href="housee.html">Các sản phẩm</a></li>
+									<li><a class="text-white text-decoration-none" href="house_detail.html">Chi tiết sản phẩm</a></li>
+									<li><a class="text-white text-decoration-none" href="about.html">About us</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-6 col-md-6 col-6">
+								<ul class="list-unstyled">
+									<li><a class="text-white text-decoration-none" href="agent.html">Các đối tác</a></li>
+									<li><a class="text-white text-decoration-none" href="agent_detail.html">Chi tiết đối tác</a></li>
+									<li><a class="text-white text-decoration-none" href="blog.html">Blog List</a></li>
+									<li><a class="text-white text-decoration-none" href="blog_detail.html">Blog Detail</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-lg-4 mt-4 ">
+						<h2 class=" text-uppercase">SẢN PHẨM TIÊU BIỂU</h2>
+						<!-- postsWidgetList -->
+						<div class="row my-4">
+							
+							<div class="col-lg-6 col-md-4 col-3 mb-3">
+								<a href="house_detail.html">
+									<img class="rounded" height="100px" src="./Image/category3.jpg">
+								</a>
+							</div>
+							<div class="col-lg-6 col-md-8 col-9 font-weight-bolder">
+								<p ><a class="text-secondary" href="house_detail.html">Nhanh tay nhận ngay ưu đãi nào!!!</a></p>
+								<p class="price_footer">80.990.000 ₫</p>
+							</div>
+							
+						</div>
+						<div class="row mb-4">
+
+							<div class="col-lg-6 col-md-4 col-3">
+								<a href="house_detail.html">
+									<img class="rounded thopro" height="100px" src="./Image/category1.jpg">
+								</a>
+							</div>
+							<div class="col-lg-6 col-md-8 col-9 font-weight-bolder">
+								<p ><a class="text-secondary" href="house_detail.html">Nhanh tay nhận ngay ưu đãi nào!!!</a></p>
+								<p class="price_footer">27.990.000 ₫</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="container">
+				<div class="footercon ">
+					<div class="row">
+						<div class=" col-lg-6 col-md-6 my-5">
+							<p>2021 <a href="#">SharkTho</a> - All rights reserved</p>
+						</div>
+						<div class=" col-lg-6 footer_bottom_right col-md-6 my-5">
+							<!-- pageFooterSocial -->
+							<ul class=" list-unstyled ">
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+								<li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fab fa-google"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footercon1 text-center">
+					<div class="row">
+						<div class=" col-12 footer_bottom_right   my-4">
+							<!-- pageFooterSocial -->
+							<ul class=" list-unstyled ">
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+								<li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fab fa-google"></i></a></li>
+							</ul>
+						</div>
+						<div class=" col-12 mb-5 ">
+							<p>2021 <a href="#">Shark Tho</a> - All rights reserved</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="back-to-top" style="">
+		<i class="fas fa-arrow-up"></i>
+	</div>
+	<script src="js/jquery.countdown.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- thư việc category -->
+	<script src="js/isotope.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/angent.js"></script>
+	<script src="js/angentdetail.js"></script>
+</body>
+</html>

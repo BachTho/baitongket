@@ -1,0 +1,40 @@
+.contact_agent{
+	margin-bottom: 10%;
+	background: white;
+    padding: 20px;
+}
+.botron{
+	width: 30px; 
+	height: 30px;
+	border-radius: 50%;
+	background-color: #ccc;
+}
+.botron i{
+	padding: 9px;
+}
+.title_agent_detail{
+	border-bottom: 2px solid #ccc;
+}
+.card-img{
+	height: 160px;
+}
+.category-icon1{
+	display: flex;
+    position: absolute;
+    list-style: none;
+    top: 80%;
+    float: left;
+    left: 0px;
+    bottom: 8%;
+    color: #ccc;
+    font-size: 20px;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.cardd{
+		width: 50%;
+		margin: auto;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	
+}

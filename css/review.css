@@ -1,0 +1,42 @@
+/*slide*/
+.client{
+	background-color: #e4f5fe;
+}
+.slide1{
+	display: none;
+}
+.slide1_img{
+	width: 15%;
+	margin:auto;
+}
+.active {
+	display: block;
+}
+.dot {
+	height: 10px;
+	margin-left: 5px;
+	background-color: #17a2b8;
+	width: 10px;
+	margin-bottom: 5%;
+}
+.active-dot {
+	width: 30px;
+	background-color: #17a2b8;
+}
+
+.khoi_slide{
+	display: flex;
+	justify-content: center;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.slide1_img{
+		width: 30%;
+		margin:auto;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.slide1_img{
+		width: 50%;
+		margin:auto;
+	}
+}

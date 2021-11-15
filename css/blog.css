@@ -1,0 +1,104 @@
+.blog{
+	background-color: #f0f9fb;
+}
+.search_form{
+	position: relative;
+	top: -13px;
+}
+.search_form1{
+	border:1px solid black;
+	width: 100%;
+	position: absolute;
+	float: left;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.search_form2{
+	position: absolute;
+	float: right;
+	top: 1px;
+	right: 1px;
+}
+.carddd{
+	height: 150px;
+}
+.photocss{
+	border-radius: 10px;
+	border:2px solid #ccc;
+}
+.photocss:hover{
+	box-shadow: 0 0 15px 15px #b6bbc0;
+}
+.photocss1{
+	background-color: #ccc;
+	border-radius: 10px;
+	border:2px solid #ccc;
+}
+.photocss1:hover{
+	background-color: #56ccf2;
+	font-size: 20px;
+}
+.css_blog_img{
+	height: 200px;
+}
+.border_read{
+	border-bottom: 2px solid #ccc;
+}
+.css_responsive{
+	display: flex;
+	flex-direction: row
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+	background-color: #ddd;
+}
+.dot_hot{
+	position: relative;
+	height: 35px;
+}
+.dot_hot1{
+	position: absolute;
+	top: 0;left: 0;
+	 width: 30%;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.carddd{
+	height: 300px;
+}
+.dot_hot{
+	height: 45px;
+}
+.dot_hot1{
+	position: absolute;
+	top: 0;left: 0;
+	 width: 15%;
+}
+.css_responsive{
+		flex-direction: column-reverse;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.css_responsive{
+		flex-direction: column-reverse;
+	}
+	.pagination1{
+		display: none;
+	}
+
+}

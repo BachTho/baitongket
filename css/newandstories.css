@@ -1,0 +1,39 @@
+.product2-title{
+		font-weight: bold;
+		color: #95b3e0;
+	}
+	.new_img{
+		height: 250px;
+	}
+	.brand{
+		background-color: #e4f5fe;
+	}
+	.new_img1{
+		height: 100px;
+	}
+	.title-product2:hover{
+		color: #86b9d4;
+	}
+	.btn-themehover{
+		color: white;
+		
+		background-color: #95b3e0;
+	}
+	.btn-themehover:hover{
+		box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+		background-color: #95b3e0;
+		
+		color: white;
+	}
+	.btn-theme1{
+		font-weight: bold;
+		width: 40%;
+		margin-top: 20%;
+		border-radius: 20px;
+		background-color: #95b3e0;
+		font-size: 16px;
+		height: 43px;
+		line-height: 30px;
+		padding: 5px 27.3px;
+		color: white;
+	}

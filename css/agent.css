@@ -1,0 +1,41 @@
+.back1,
+.agent_list{
+	background-color: #dcf2f7;
+}
+.background_maim{
+	margin-top:10%;
+}
+.btnDark{
+	background-color: #114a82;
+	border-color: #114a82;
+	color: #fff;
+}
+.btnDark2{
+		display: none;
+	}
+	.slidefirst_content a{
+		text-decoration: none;
+	}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.display_search{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 5%;
+		margin-top: 2%;
+	}
+	.btnDark2{
+		display: none;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.background_maim {
+		margin-top: 30%;
+	}
+	.btnDark1{
+		display: none;
+	}
+	.btnDark2{
+		display: block;
+	}
+}
+}

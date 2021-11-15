@@ -1,0 +1,39 @@
+.btndot{
+	font-size: 30px;
+	 text-decoration: none;
+	 color: black;
+	 border:1px solid white;
+	 padding: 5px;
+	 border-radius: 20px;
+}
+.btndot:hover{
+	text-decoration: none;
+background-color:#17a2b8;
+color: white; 
+}
+.btndot1{
+	font-size: 40px;
+	font-weight: bold;
+}
+.background_dichvu{
+	background-color: #e4f5fe;
+}
+.slide11_img{
+	width: 100%;
+	margin:auto;
+}
+.about_button {
+
+    width: 200px;
+    height: 36px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #17a2b8;
+    border: 1px solid #17a2b8;
+    font-size: 20px;
+}
+.about_button:hover {
+    background-color: #17a2b8;
+    color: #ffffff;
+    transition: 0.5s;
+}
